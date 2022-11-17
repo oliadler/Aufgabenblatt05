@@ -1,6 +1,6 @@
 public class MyList {
 
-    int[] myArray = {2,1,5,4,5,6,345,7,8787,5,23,65,73,3};
+    int[] myArray = {2,1,5,4,4,6,45,7,6,5,23,8,73,3};
     public void addToList(int index,int item)
     {
         if (index < 0 || index >= myArray.length)
